@@ -2,6 +2,13 @@
 :root{
 	background-color:rgb(135, 206, 235);
 }
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:last-child{
+	color:red;
+}
 li:first-child, li:last-child{
 	font-size:22px;
 }
